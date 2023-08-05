@@ -10,11 +10,12 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      oswald:"'Oswald, sans-serif",
-      urbanist:"Urbanist, sans-serif"
+
+      NotoSansVithkuqi : "sans-serif"
+      
     
     },
-    extend: {},
+    extend: {}, 
   },
   plugins: [],
 }

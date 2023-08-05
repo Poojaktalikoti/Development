@@ -5,94 +5,156 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
  const HeroBanner = () => {
 
   return (
-    <div className=" h-[200px] md:h-[320px] w-full bg-yellow-400">
-           
-           <div>
-          <p className="w-full absolute text-black top-16 md:w-[80px]
-             text-2xl font-extrabold cursor-pointer hover:opacity-90">
-              Get FRESH Grocery now at less time
-              </p>
-                 </div>
-                   
-       <div>
-        <img src="Fruits-and-Vegetables.jpg"  
-      className="h-[300px] md:m[180px] absolute top-[100px] mix-blend-darken
-       right-0 cursor-pointer hover:opacity-90"/>
-          </div>
-          
-           {/*F & V start*/}
-      <div>
-        <img src="F & V.png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
-         bg-green-300 absolute bottom-[30px] md:bottom-[40px] left-5 cursor-pointer hover:opacity-90"/> 
-
-          <div className=" text-sm w-[85px] md:[w-40px] font-oswald font-semibold left-5
-           absolute bottom-[40px] md:bottom-[35px] cursor-pointer hover:opacity-90">Fruits & Vegetables</div>
-         </div>
-
-               {/*DryFruits Start*/} 
- <div>
-     <img src="nuts.png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
-         bg-green-300 absolute bottom-[30px] md:bottom-[40px] left-52 
-         cursor-pointer hover:opacity-90"/>
-               
-        <div className=" text-sm w-[85px] md:[w-40px] font-oswald font-semibold left-52
-           absolute bottom-[40px] md:bottom-[35px] cursor-pointer hover:opacity-90">DrayFruits & Seeds</div>
-   </div>
-
-       {/*MultiGrains Start */}
-   <div>
- <img src="Grains..png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
- bg-green-300 absolute bottom-[30px] md:bottom-[40px] right-52 cursor-pointer hover:opacity-90"/>
-            
-  <div className=" text-sm w-[85px] md:[w-42px] font-oswald font-semibold right-52
- absolute bottom-[40px] md:bottom-[35px] cursor-pointer hover:opacity-90">MultiGrains & Masala</div>
-         
-      </div>
-              {/*Dairy & Eggs Start*/}
-      <div>
-    <img src="Dairy.png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
-  bg-green-300 absolute bottom-[30px] md:bottom-[40px] right-5 cursor-pointer hover:opacity-90"/>
-
-      <div className=" text-sm w-[85px] md:[w-42px] font-oswald font-semibold right-5
-   absolute bottom-[40px] md:bottom-[39px] cursor-pointer hover:opacity-90">Dairy & Eggs</div>
-         
-          
-      </div>
-               {/*Cakes & Bakery Start*/}
-      <div>
-         <img src="Bakery1.png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
-         bg-green-300 absolute bottom-[40px] md:bottom-[39px] left-1/2 
-       cursor-pointer hover:opacity-90"/>
-          <div className=" text-sm w-[60px] md:[w-40px] font-oswald font-semibold left-1/2
-           absolute bottom-[40px] md:bottom-[35px] cursor-pointer hover:opacity-90">Cake & Bakery</div>
-      </div>
-               {/*Bevarages Start*/}
-      <div>
-         <img src="softdrinks1.png" className="h-[30px] md:h-[200px] py-[15px] md:py-[32px]
-         bg-green-300 absolute bottom-[30px] md:bottom-[40px] right-96 cursor-pointer hover:opacity-90"/>
-           
-           <div className=" text-sm w-[60px] md:[w-40px] font-oswald font-semibold right-96
-           absolute bottom-[40px] md:bottom-[35px] cursor-pointer hover:opacity-90">Bevarages</div>
-      </div>
-                  {/*Bevarages end*/}
-     
-               {/*Snaks & Food Packets*/}
-      <div>
-         <img src="Snacks.png" className="h-[40px] md:h-[200px] py-[20px] md:py-[35px]
-         bg-green-300 absolute bottom-[30px] md:bottom-[40px] left-96 cursor-pointer hover:opacity-90"/>
-          
-          <div className=" text-sm w-[60px] md:[w-40px] font-oswald font-semibold left-96
-           absolute bottom-[50px] md:bottom-[42px] cursor-pointer hover:opacity-90">Snacks & PackedFoods</div>
-      </div>
-
-                {/*Snacks end*/}
+         <div className="flex-initial w-full">
+    
+             <div className=" bg-yellow-300 h-[318px] md-h[300px]"> 
+                  <div className=" absolute top-14 left-0 right-0 px-4 py-2 opacity-70">
+                     <h3 className=" text-6xl text-slate-950 font-extrabold">Get Fresh Grocery
+                     <p className="break-normal">now at less time </p>    
+                        </h3>
 
 
-        
-      </div>
 
+<div className=" absolute left-2 right-0 text-black text-xs">
+Did you ever imagine that the freshest of fruits & vegetables , top quality 
+pulses and food grains ,dairy products <p className="break-normal"> and hundreds of items could be handpicked and delivered to your  home,
+ all at the click of a button? </p> 
+ <p className="break-normal">India’s first comprehensive online megastore,healthyfood.com </p>
+ </div>
+
+                  </div>
+<div class="mb-3">
+  <div class="relative mb-4 flex w-96 top-48 left-20 flex-wrap items-stretch">
+    <input
+      type="search"
+      class="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border
+       border-solid border-neutral-50 bg-white bg-clip-padding px-3 py-[0.25rem] 
+       text-base font-normal leading-[1.6] text-neutral-700 outline-none transition
+        duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 
+        focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none
+         dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 
+         dark:focus:border-primary"
+      placeholder="Search Products..." />
+
+    
+    <div
+      class="relative z-[2] flex items-center rounded-r bg-primary px-3 py-2
+      bg-green-500 hover:shadow-lg active:bg-primary-800 active:shadow-lg w-30">
+       <img src="search.png"/>
+    </div>
+  </div>
+</div>
+             
+             </div>
+
+              <div className=" flex-initial w-32">
+                <img src="Fruits-and-Vegetables.jpg" 
+                      className="h-[180px] md:h-[250px] top-32 absolute right-0"/></div>
+
+
+                      
+
+        {/*---------------------------------------------------------------------------------*/}              
    
-  )
+   <div className="flex justify-between flex-row " >
+  <div className= "p-2 w-28 h-36 bg-green-300">
+       <img src="F & V.png"/> 
+            <div className=" flex flex-wrap mt-0">
+                <div className=" absolute text-center text-black text-xs font-normal">
+                        Fruits & <p className="break-normal">Vegetables</p></div>
+                           </div>
+                               </div>
+
+<div className= "p-2 w-28 h-36 bg-green-300">
+  <img src="Dairy.png"/> 
+     <div className=" flex flex-wrap mt-0">
+            <div className=" absolute text-center text-black text-xs font-medium">
+                    Eggs & Dairy</div>
+                            </div>   
+                                 </div>
+          
+          
+<div className= "p-2 w-28 h-36 bg-green-300">
+     <img src="Grains..png"/> 
+           <div className=" flex flex-wrap mt-0">
+            <div className=" absolute text-center text-black text-xs font-medium">
+                           MultiGrains & <p className="break normal text-center">Masala</p></div>
+                           </div>
+                                </div>
+              
+  <div className= "p-2 w-28 h-36 bg-green-300">
+        <img src="Bakery1.png"/> 
+                <div className=" flex flex-wrap mt-0">
+                  <div className=" absolute text-center text-black text-xs font-medium">
+                          Bakery&Cakes</div>
+                           </div>
+                              </div>
+                
+ <div className= "p-2 w-28 h-36 bg-green-300">
+     <img src="nuts.png"/> 
+                  <div className=" flex flex-wrap mt-0">
+                  <div className=" absolute text-center text-black text-xs font-medium">
+                           DryFruits & <p className="break-normal text-center">Seeds</p></div>
+                           </div>
+                                   </div>
+    
+ <div className= "p-2 w-28 h-36 bg-green-300">
+      <img src="softdrinks1.png"/> 
+                  <div className="flex flex-wrap">
+                  <div className="absolute text-center text-black text-xs font-medium">
+                           Bevarages</div>
+                           </div>
+                                </div>
+                
+ <div className= "p-2 w-28 h-36 bg-green-300">
+         <img src="snacks.png"/> 
+                  <div className=" flex flex-wrap mt-0">
+                  <div className=" absolute text-center text-black text-xs font-medium">
+                           Snacks & <p className="break-normal">packedFoods</p></div>
+                           </div>
+                                     </div>
+
+
+
+
+                </div>
+
+                           
+                     
+                <div className=" absolute text-start bottom-5 left-4 text-black font-bold text-2xl">Discount Products</div>
+                     
+               
+
+                
+                
+                
+                
+                
+
+
+              
+
+
+
+
+
+              </div>
+   
+   
+   
+   
+   
+   
+
+
+      
+
+
+          
+   
+      
+   
+         )
 }
 
 export default HeroBanner

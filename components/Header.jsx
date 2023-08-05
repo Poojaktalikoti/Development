@@ -6,8 +6,6 @@ import Menu from './Menu';
 
 import { BsCart } from 'react-icons/bs';
 import { BsFillPersonFill } from 'react-icons/bs';
-import { BsSearch } from 'react-icons/bs';
-
 
 
 const Header = () => {
@@ -16,9 +14,12 @@ const Header = () => {
     const [lastScrolly, setLastScrolly] = useState(0);
 
     const controlNavbar = () =>{
-      if(window.scrollY > 200) {
-        if(window.scrollY > lastScrolly){
-        setShow("-translate-y-[80px]");
+      if(window.scrollY > 200) {            
+ 
+ 
+         if(window.scrollY > lastScrolly){
+   
+                   setShow("-translate-y-[80px]");
         }else{
           setShow("shadow-sm");
         }
@@ -74,19 +75,14 @@ return (
             {/*icon end*/}
 
 
-            <div className="w-10 md:w-14 h-8 md:h-14 rounded-full flex justify-center
-            items-center hover:bg-black/[0.05] cursor-pointer relative">
-              <BsSearch className="text-[80px] md:text-[60px]"/>
-              <div className="h-[16px] md:h-[20px] min-w-[18px] md:min-[20px]
-              rounded-full top-1 left-5 md:left-7 ">
-              </div>
+         
 
               </div>
 
 
 
 
-          </div>
+   
 
    </Wrapper>
   </header>

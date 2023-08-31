@@ -5,11 +5,12 @@ import ProductCard from "@/components/ProductCard"
 
 
 export default function Home() {
-  return <main className="h-[1000px]">
+  return <main className="h-[1200px] w-full flex-shrink-0 ">
     <HeroBanner/>
     <Wrapper>
-      <div className=" grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14
-       px-5 md:px-0">
+    <div class="grid grid-cols-5 tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-2">
+  
+
         <ProductCard/>
         
 

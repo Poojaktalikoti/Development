@@ -9,13 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily:{
-
-      NotoSansVithkuqi : "sans-serif"
-      
+   fontFamily:{
+    Poppins:"sans-serif"
     
-    },
+    },    
+    
     extend: {}, 
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 }

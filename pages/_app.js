@@ -24,19 +24,19 @@ export default function App({ Component, pageProps }) {
         
        
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-     
-<link 
-rel="preconnect" 
-href="https://fonts.gstatic.com" 
-crossorigin="true"
-/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@700&display=swap" 
+<link rel="preconnect"
+ href="https://fonts.gstatic.com" 
+ crossorigin="true"
+ />
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" 
 rel="stylesheet"
+
 />
 
 
              </Head>
              <Header/>
+             
              <Component {...pageProps} />
              <Footer/>
   </>

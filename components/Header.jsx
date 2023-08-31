@@ -64,14 +64,18 @@ return (
             {/*icon end*/}
 
                       {/* person icon start*/}
+                      <Link href={"C:\Users\.user\Desktop\Profile"}>
             <div className="w-10 md:w-14 h-8 md:h-14 rounded-full flex justify-center
             items-center hover:bg-black/[0.05] cursor-pointer relative">
+              
               <BsFillPersonFill className="text-[80px] md:text-[60px]"/>
               <div className="h-[16px] md:h-[20px] min-w-[18px] md:min-[20px]
               rounded-full top-1 left-5 md:left-7 ">
+                
               </div>
-              
+             
             </div>
+            </Link>
             {/*icon end*/}
 
 

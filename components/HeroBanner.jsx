@@ -1,9 +1,9 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Link from 'next/link';
 
 
  const HeroBanner = () => {
-
   return (
          <div className="flex-initial w-full">
     
@@ -55,19 +55,21 @@ pulses and food grains ,dairy products <p className="break-normal"> and hundreds
                       
 
         {/*---------------------------------------------------------------------------------*/}              
-   
-   <div className="flex justify-between flex-row " >
-  <div className= "p-2 w-28 h-36 bg-green-300">
-       <img src="F & V.png"/> 
+      
+       <div className="flex justify-between flex-row py-8 " >
+  <div className= "p-2 w-28 h-36 bg-green-300 ml-3">
+   <img src="F & V.png"/> 
             <div className=" flex flex-wrap mt-0">
                 <div className=" absolute text-center text-black text-xs font-normal">
                         Fruits & <p className="break-normal">Vegetables</p></div>
                            </div>
+                            
                                </div>
+                                
 
 <div className= "p-2 w-28 h-36 bg-green-300">
   <img src="Dairy.png"/> 
-     <div className=" flex flex-wrap mt-0">
+     <div className=" flex flex-wrap mt-1 ml-2">
             <div className=" absolute text-center text-black text-xs font-medium">
                     Eggs & Dairy</div>
                             </div>   
@@ -76,7 +78,7 @@ pulses and food grains ,dairy products <p className="break-normal"> and hundreds
           
 <div className= "p-2 w-28 h-36 bg-green-300">
      <img src="Grains..png"/> 
-           <div className=" flex flex-wrap mt-0">
+           <div className=" flex flex-wrap mt-1 ml-2">
             <div className=" absolute text-center text-black text-xs font-medium">
                            MultiGrains & <p className="break normal text-center">Masala</p></div>
                            </div>
@@ -84,15 +86,15 @@ pulses and food grains ,dairy products <p className="break-normal"> and hundreds
               
   <div className= "p-2 w-28 h-36 bg-green-300">
         <img src="Bakery1.png"/> 
-                <div className=" flex flex-wrap mt-0">
+                <div className=" flex flex-wrap mt-1 ml-3">
                   <div className=" absolute text-center text-black text-xs font-medium">
-                          Bakery&Cakes</div>
+                          Bakery & <p className=" break-normal text-center">Cakes</p></div>
                            </div>
                               </div>
                 
  <div className= "p-2 w-28 h-36 bg-green-300">
      <img src="nuts.png"/> 
-                  <div className=" flex flex-wrap mt-0">
+                  <div className=" flex flex-wrap mt-1 ml-3">
                   <div className=" absolute text-center text-black text-xs font-medium">
                            DryFruits & <p className="break-normal text-center">Seeds</p></div>
                            </div>
@@ -100,7 +102,7 @@ pulses and food grains ,dairy products <p className="break-normal"> and hundreds
     
  <div className= "p-2 w-28 h-36 bg-green-300">
       <img src="softdrinks1.png"/> 
-                  <div className="flex flex-wrap">
+                  <div className="flex flex-wrap ml-3 mt-1">
                   <div className="absolute text-center text-black text-xs font-medium">
                            Bevarages</div>
                            </div>
@@ -108,20 +110,26 @@ pulses and food grains ,dairy products <p className="break-normal"> and hundreds
                 
  <div className= "p-2 w-28 h-36 bg-green-300">
          <img src="snacks.png"/> 
-                  <div className=" flex flex-wrap mt-0">
+                  <div className=" flex flex-wrap mt-1">
                   <div className=" absolute text-center text-black text-xs font-medium">
                            Snacks & <p className="break-normal">packedFoods</p></div>
                            </div>
                                      </div>
 
-
+     <div className= "p-2 w-28 h-36 bg-green-300 mr-3">
+         <img src="mop.png"/> 
+                  <div className=" flex flex-wrap mt-1 ml-3">
+                  <div className=" absolute text-center text-black text-xs font-medium">
+                           cleaning & <p className="break-normal">Household</p></div>
+                           </div>
+                                     </div>
 
 
                 </div>
 
                            
                      
-                <div className=" absolute text-start bottom-5 left-4 text-black font-bold text-2xl">Discount Products</div>
+
                      
                
 

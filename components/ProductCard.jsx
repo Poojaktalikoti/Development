@@ -3,56 +3,49 @@ import React from 'react'
 
 const ProductCard = () => {
   return(
-  <Link href="/product/1">
-     <img  className="w-[250px] absolute top-[540px]
-  py-[60px] md:py-[30px] left-5 cursor-pointer " src="Tomato.png" alt="Product Image" />
-   <div className="p-4 text-black/[0.9]">
-  <h2 className="text-lg font-bold text-center left-20 md:top-[760px] absolute">Fresh Tomotaos</h2>
-   <div className="flex items-center text-black/[0.5]">
-   <p className="ml-auto top-[300px] md:top-[580px] absolute font-medium left-40 text-white bg-red-600">Get 15% off</p>
-  </div>
-   </div>
+  <section className=" py-3 ml-1">
+       <h1 className=" absolute text-5xl font-bold text-black">Discount Products</h1>
+
+       <div className=" flex absolute justify-between gap-14 flex-row py-20">
+           <div className=" left-4">
+            <div className="text-white bg-red-600 w-28 ml-40">Get 10% OFF</div>
+            <img src="Tomato.png" className=" w-64 h-56"/>
+            <div className="text-xl text-center">Fresh Tomatos</div>
+            </div>
+
+            <div className="left-20">
+            <div className="text-white bg-red-600 w-28 ml-40">Get 10% OFF</div>
+            <img src="Orange.png" className=" w-64 h-56"/>
+            <div className="text-xl text-center">Orange</div>
+            </div>
+        
+            <div className="right-20">
+            <div className="text-white bg-red-600 w-28 ml-40">Get 10% OFF</div>
+            <img src="Eggs.png" className=" w-64 h-56"/>
+            <div className="text-xl text-center">Eggs</div>
+            </div>
 
 
-  <img  className="w-[240px] absolute top-[550px]
- py-[60px] md:py-[30px] right-5 cursor-pointer " src="Orange.png" alt="Product Image" />
-   <div className="p-4 text-black/[0.9]">
-  <h2 className="text-lg font-bold text-center right-24 md:top-[768px] absolute"> Seasonal Fruits</h2>
-   <div className="flex items-center text-black/[0.5]">
-   <p className="ml-auto top-[300px] md:top-[580px] absolute font-medium right-0 text-white bg-red-600">Get 15% off</p>
-  </div>
-   </div>
+            <div className="right-4">
+            <div className="text-white bg-red-600 w-28 ml-32">Get 10% OFF</div>
+            <img src="WheatGrains.png" className=" w-64 h-56"/>
+            <div className="text-xl text-center">MultiGrains</div>
+            </div>
+       </div>
+  
+ 
 
-
-  <img  className="w-[250px] absolute top-[550px] 
-   py-[40px] md:py-[20px] left-1/4" src="WheatGrains.png" alt="Product Image" />
-      <div className="p-4 text-black/[0.9]">
-        <h2 className="text-lg font-bold text-center left-96 md:top-[760px] absolute">MultiGrains</h2>
-        <div className="flex items-center text-black/[0.5]">
-        <p className="ml-auto top-[300px] md:top-[580px] absolute font-medium left-1/3 text-white bg-red-600">Get 20% off</p>
-        </div>
-        </div>
-           
-
- <img  className="w-[250px] absolute top-[550px]
-      py-[40px] md:py-[20px] right-1/4 cursor-pointer " src="Eggs.png" alt="Product Image" />
-   <div className="p-4 text-black/[0.9]">
-    <h2 className="text-lg font-bold text-center right-1/3 md:top-[760px] absolute">Eggs</h2>
-     <div className="flex items-center text-black/[0.5]">
- <p className="ml-auto top-[300px] md:top-[580px] absolute font-medium right-60 text-white bg-red-600">Get 12% off</p>
 
 
   
 
 
- </div>
- </div>
 
- 
 
+
+     </section>           
                 
-                
-                 </Link>
+                 
  
   );
   
